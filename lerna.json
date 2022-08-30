@@ -1,6 +1,9 @@
 {
 	"private": true,
+	"$schema": "node_modules/lerna/schemas/lerna-schema.json",
 	"packages": ["packages/*"],
+	"useNx": true,
+	"useWorkspaces": true,
 	"command": {
 		"publish": {
 			"ignoreChanges": ["ignored-file", "*.md"],
