@@ -1,0 +1,21 @@
+import Al{{properCase name }} from './al-{{name}}.vue'
+
+export default {
+  title: 'Al{{properCase name}}',
+  component: Al{{properCase name }},
+  parameters: {
+    // More on Story layout: https://storybook.js.org/docs/vue/configure/story-layout
+    layout: 'fullscreen',
+  },
+}
+
+const Template = () => ({
+  components: { Al{{properCase name }} },
+  template: `
+                <div>
+                  <al-{{name}}></al-{{name}}>
+                </div>
+              `
+})
+
+export const basic = Template.bind({})

@@ -1,0 +1,21 @@
+{
+	"name": "al-form",
+	"version": "0.0.0",
+	"private": true,
+	"description": "",
+	"main": "dist/bundle.cjs.js",
+	"module": "dist/bundle.umd.js",
+	"scripts": {
+		"build:prod": "cross-env NODE_ENV=production rollup -c",
+		"build:dev": "cross-env NODE_ENV=development rollup -c",
+		"delete:dist": "rimraf dist",
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"lodash": "^4.17.21",
+		"vue-template-compiler": "^2.7.8"
+	}
+}
