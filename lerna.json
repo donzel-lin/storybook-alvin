@@ -1,22 +1,12 @@
 {
-	"private": true,
 	"$schema": "node_modules/lerna/schemas/lerna-schema.json",
-	"packages": [
-		"pack1/*"
-	],
 	"useNx": true,
 	"useWorkspaces": true,
+	"version": "0.0.0",
 	"command": {
-		"publish": {
-			"ignoreChanges": [
-				"ignored-file",
-				"*.md"
-			],
-			"message": "chore(release): publish"
-		},
-		"bootstrap": {
-			"ignore": "component-*"
+		"version": {
+			"conventionalCommits": true
 		}
 	},
-	"version": "0.0.1"
+	"ignoreChanges": ["*.md", "node_modules"]
 }
