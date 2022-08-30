@@ -15,7 +15,7 @@ export default {
   methods: {
     async validate(cb) {
       // 校验
-      console.log("asd111111f");
+      console.log("asd111111f2222");
       const request = this.$children
         .filter((x) => x.prop)
         .map((child) => child.validate());
