@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"$schema": "node_modules/lerna/schemas/lerna-schema.json",
-	"packages": ["packages/*"],
+	"packages": ["pack1/*"],
 	"useNx": true,
 	"useWorkspaces": true,
 	"command": {
